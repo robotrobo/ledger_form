@@ -1,10 +1,12 @@
+let name = "";
+let pass = "";
+let lab_user, lab_pass, user_in, pass_in;
+
 function setup() {
-  // put setup code here
+  user_in = createInput("", "text");
+  pass_in = createInput("", "password");
 
-  createCanvas(100, 100);
-}
 
-function draw() {
-  background(100);
-  // put drawing code here
+
+
 }
