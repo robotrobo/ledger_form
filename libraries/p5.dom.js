@@ -38,6 +38,7 @@
   // =============================================================================
 
   /**
+   * Searches the page for an element with the given ID, class, or tag name (using the '#' or '.'
    * prefixes to specify an ID or class respectively, and none for a tag) and returns it as
    * a <a href="#/p5.Element">p5.Element</a>. If a class or tag name is given with more than 1 element,
    * only the first element will be returned.
